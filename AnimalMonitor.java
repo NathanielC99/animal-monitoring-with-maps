@@ -21,7 +21,22 @@ public class AnimalMonitor
     {
         animalSightings = new HashMap<>();
     }
-
+    
+    HashMap<String,String> contacts =new HashMap<>();
+    {
+    contacts.put("Charles Nguyen","(531) 9392 4587");
+    contacts.put("Lisa Jones", "(402) 4536 4674");
+    contacts.put("Willam H. Smith", "(998) 5488 0123");
+    }
+    public void enterNumber(String name,String number)
+    {
+        contacts.put(name,number);
+        System.out.println("Contact added: " + name + " ->" + number);
+    }
+    public String lookupNumber(String name)
+    {
+        return contacts.get (name);
+    }
     /**
      * Add the sightings from the given file.
      * @param filename A CSV file of sighting records.
