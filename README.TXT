@@ -16,5 +16,11 @@ for-each and while loops.
 It also provides a execution for basic functions, if the function has distributes the elements properly.
 25.V computeIFAbsent, computeIFPresent, putIFAbsent. I think that the same type can be used for all of them.
 26.Collection<V> values() 
-28.It will replace the value
-29.
+28.It can't have duplicates.
+29.They are both stored independently.
+30.Set<K> keySet
+31.It doesn't return anything.
+32.Set<Map.Entry<K,V>> 	entrySet()
+34.The HashSet has to have it elements dipersed properly while the Arraylist doesn't.
+35For HashSet there is a specific way to remove a set with it's own method unlike the Arraylist.
+36.There does not seem to be a problem with more then one space between words.
